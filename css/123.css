@@ -1,0 +1,43 @@
+.item{
+    width: 230px;
+    height: 300px;
+    text-align: center;
+    margin-right: 20px;
+    background-color: #FFF;
+    float: left;
+    position: relative;
+    top: 0;
+    overflow: hidden;
+    transition: all .5s;
+    box-shadow: #191c23 0px 5px 5px;
+}
+.pic{
+    margin-top: -15px;
+    margin-left: -35px;
+}
+.desc{
+    position: absolute;
+    bottom:100px;
+    width: 100%;
+    height: 100px;
+    background-color: #58A6F0;
+    transition:all .5s;
+    background-color: rgba(88,166,240,0.8);
+
+}
+.item:hover{
+    top: -5px;
+    box-shadow: 0 0 15px #AAA;
+}
+.item:hover .desc{
+    bottom: 300px;
+
+}
+.detail{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.detail i{
+    color: red;
+}

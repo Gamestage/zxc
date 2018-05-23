@@ -1,0 +1,168 @@
+body{
+    position: relative;
+    background-color: #193c56;
+    margin: 0 auto;
+    overflow-y: hidden;
+}
+.title{
+    position: absolute;
+    height: 110px;
+    width: 100%;
+    background-color: #191c23;
+}
+.title .n1,.title .n2,.title .n3{
+    position: absolute;
+    top:35px;
+    color: #bfbdbb;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.n1:hover{
+    color: white;
+}
+.n2:hover{
+    color: white;
+}
+.n3:hover{
+    color: white;
+}
+.n4:hover{
+    color: white;
+}
+.n1{
+    left: 600px;
+}
+.n2{
+    left: 650px;
+}
+.n3{
+    left: 700px;
+}
+.title .n4{
+    position: absolute;
+    top:0;
+    left: 1200px;
+    color: #bfbdbb;
+    font-size: 12px;
+
+}
+.n5{
+    position: absolute;
+    top: 25px;
+    left: 470px;
+    height: 60px;
+    width: 80px;
+    background-image: url("../image/logo.png");
+}
+
+a{
+    text-decoration: none;
+}
+
+.title1{
+    height:280px;
+    width: 100%;
+    background-color: black;
+    background-image: url("../image/sky1.jpg");
+}
+.title1 .m1{
+    position: absolute;
+    top:130px;
+    left: 300px;
+    height: 40px;
+    width: 1000px;
+    background-color: rgba(27, 83, 112, 0.7);
+    font-size: 15px;
+    font-weight: lighter;
+}
+.title1 .m2{
+    position: absolute;
+    top:180px;
+    left:300px;
+    height:100px;
+
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    float: left;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    max-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+.dropbtn {
+    background-color: rgba(0, 0, 0, 0);
+    color: #bfbdbb;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    box-shadow: 1px 0 0 0 rgba(0,0,0,0.7);
+}
+.dropdown-content a {
+    color: black;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.font1{
+    font-weight: lighter;
+    color: #bfbdbb;
+}
+.m1 .m12{
+    position: relative;
+    top: 6px;
+    float: right;
+    background-color: #1b5370;
+    height: 29px;
+    width: 200px;
+
+}
+.m12 .m121{
+    background-color: #1b5370;
+    height: 25px;
+    border: 0px solid #1b5370;
+    border-radius: 4px;
+}
+.m12 .m122{
+    background-color: #1d84a3;
+    height: 28px;
+    border: 0px solid #1b5370;
+    float: right;
+    border-radius: 4px;
+}
+.m122:hover{
+    background-color: #1eb3d3;
+    color: white;
+}
+.m12:hover{
+    border: 1px solid #1eb3d3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

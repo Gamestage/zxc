@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("image/4872553bf8eb16caca65128ba84ee1d9.jpg");
+}
+#container{
+    margin: auto;
+    width: 100%;
+}
+#header{
+    height: 80px;
+    margin-bottom: 0;
+}
+#menu{
+    height:50px;
+    margin-bottom:0;
+}
+#maincontent{
+    height:755px;
+    margin-bottom:-15px;
+}
+#side1{
+    float: left;
+    width:45%;
+    height:100%;
+}
+#side2{
+    float:right;
+    width: 54%;
+    height:100%;
+}
+
+#footer{
+    height:78px;
+    background:rgba(0,0,0,0.9);
+}
+.deng{
+    height: 300px;
+    width: 500px;
+    padding-left: 50px;
+    padding-top: 50px;
+    margin-left: 90px;
+    margin-top: 100px;
+    background:rgba(0,0,0,0.2);
+}
+.ul{
+    list-style: none;
+    position: relative;
+    top: 120px;
+}
+li{
+    display: inline-block;
+    text-align:left;
+    margin-right: 10px;
+    width:200px;
+}
+.mm{
+    width: 100px;
+    margin-top: 15px;
+    float: right;
+}
+#menu a{
+    text-decoration: none;
+    font-size:20px;
+    color: white;
+    font-weight: bold;
+}
+#menu a:visited,a:link{
+    display: block;
+    border: gray solid 1px;
+    border-radius: 5px;
+    background:rgba(0,0,0,0.5);
+    height: 35px;
+    width: 85px;
+    padding-top: 5px;
+    padding-left: 2px;
+}
+#menu a:hover{
+    color: aqua;
+    background: silver;
+}
+ul{
+    list-style: none;
+}
+.deng p{
+    height: 65px;
+    width: 65px;
+    border: 3px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    top: 8px;
+    left: 350px;
+    background-color: powderblue;
+}
+.s{
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}
+.zi{
+    font-weight: bold;
+}
+.sea{
+    width: 420px;
+    height: 30px;
+    background-color: rgba(255,255,255,0.9);
+    position: absolute;
+    top: 90px;
+    left: 90px;
+    border-radius: 5px;
+    border: 1px;
+}
+#header input:focus{
+    background-color: gainsboro;
+}
+.logo{
+    position:absolute;
+    top:10px;
+    right:75px;
+}
+.search{
+    position: absolute;
+    top: 87px;
+    left: 522px;
+}
+.word{
+    font-size:1px;
+    color: gainsboro;
+    padding-left: 100px;
+    padding-top: 30px;
+    width: 600px;
+}
+.word2{
+    color: white;
+}
+.lin{
+    position: relative;
+    top:20px;
+    left: 100px;
+
+}
